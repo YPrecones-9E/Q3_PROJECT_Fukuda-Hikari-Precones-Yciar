@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Help - MRT Line 3</title>
+    <!-- Bootstrap 5 Setup -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- JS Setup-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts Lexend Setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Link to CSS File -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="https://icon-library.com/images/train-icon-png/train-icon-png-29.jpg"><img src="navbar-logo.jpg" alt="Train Logo" id="navbar-logo"> <strong>MRT Line 3</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><strong>Help</strong></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn" id="navbt" type="button" onmouseover="hoverButton('navbt')" onmouseout="resetButton('navbt')">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5 mb-3 rounded">
+        <h1 class="mt-2 mb-2 text-center">MRT Line 3 Contact Us</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="mt-2 mb-2 text-center">Leave a Comment</h2>
+                <textarea class="form-control mt-2 mb-2" id="feedback" rows="3" placeholder="Feedback"></textarea>
+                <input type="text" id="name" class="form-control mt-2 mb-2" placeholder="Name">
+                <input type="email" id="emailad" class="form-control mt-2 mb-2" placeholder="Email">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                   <button type="button" class="btn w-100" id="submitB" onClick="submitinfo()" onmouseover="hoverButton('submitB')" onmouseout="resetButton('submitB')">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="mt-2 mb-2 text-center">Help</h2>
+                <p class="mt-1 mb-1 text-center">We are pleased to receive your comments, suggestions or complaints regarding the stations, trains and services. Some of the best ideas come from our riders. If you are pleased, let us know. If you encounter a problem, we want to know about it so that corrective actions can be taken.</p>
+                <hr/>
+                <p class="mt-1 mb-1 text-center"><strong>DOTr-MRT3 Depot Office</strong><br/>EDSA corner North Avenue<br/>8929-5347 local 2810<br/>feedback@dotrmrt3.gov.ph</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-2 mb-2 rounded">
+        <h4 class="text-center">© 2025 <a href="https://github.com/YPrecones-9E" target="_blank">Yciar Precones</a> , <a href="https://github.com/Hikarihikaru0317" target="_blank">Hikari Fukuda</a></h4>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

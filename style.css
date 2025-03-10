@@ -1,0 +1,54 @@
+body{
+	background-color: rgba(255,255,255,0.5);
+	background-blend-mode: overlay;
+	font-family: Georgia;
+	background-image:url('map.png');
+	background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.container{
+	background: rgba(255,255,255,1);
+	border: 2px solid #fec107;
+	overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1, h2, h3, h4{
+	font-family: Lexend;
+	color: #000000;
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+h1, h2{
+	background-color: #fdeda7;
+	border-radius: 5px;
+	padding: 10px;
+}
+a{
+	color: #001c2c;
+}
+nav{
+	border: 1px solid #fec107;
+}
+#navbar-logo{
+	height: 40px;
+	width: auto;
+	max-height: 100%;
+	display: inline-block;
+}
+
+.chiketto{
+	max-height:140px;
+}
+.fare-display{
+	text-shadow: 1px 1px #FFFFFF;
+}
+.btn{
+	border:1px solid black;
+}
